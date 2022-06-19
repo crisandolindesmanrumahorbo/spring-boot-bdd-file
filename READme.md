@@ -1,4 +1,4 @@
-##Spring boot File
+## Spring boot File
 [source: bezkoder] 
 
 ####Postgres run on docker
@@ -6,11 +6,11 @@
 docker run -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=file_db -p 5432:5432 library/postgres:13-alpine
 ```
 
-####Blob
+#### Blob
 Store the file into Postgres with Blob.
 https://www.baeldung.com/hibernate-lob
 
-####Testing
+#### Testing
 BDD Source: 
 https://www.baeldung.com/cucumber-spring-integration
 https://krushna-dash.medium.com/spring-boot-cucumber-bdd-c077666c9c68
