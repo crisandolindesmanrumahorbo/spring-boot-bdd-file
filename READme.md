@@ -1,4 +1,4 @@
-## Spring boot File
+## Spring boot Download Upload File
 [source: bezkoder] 
 
 #### Postgres run on docker
@@ -40,7 +40,7 @@ spring.jpa.hibernate.ddl-auto=create
 
 - feature where the feature located
 ```
-    @CucumberOptions(features = "src/test/resources")
+    @CucumberOptions(features = "src/test/resources/feature")
 ```
 
 - Base Class or in this project (SpringIntegrationTest), we can use that class to implement the logic
