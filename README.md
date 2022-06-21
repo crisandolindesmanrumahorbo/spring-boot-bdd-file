@@ -16,7 +16,7 @@ https://www.baeldung.com/cucumber-spring-integration
 https://krushna-dash.medium.com/spring-boot-cucumber-bdd-c077666c9c68
 
 - must be on option create, so the H2 (database for the testing) create a fresh database every unit test
-- if hibernate.ddl-auto change into option update, the H2 get the data from actual database, not create a db fresh one 
+- if hibernate.ddl-auto change into option update, the H2 get the data from actual database, not create a fresh db 
 ```
 spring.jpa.hibernate.ddl-auto=create
 ```
